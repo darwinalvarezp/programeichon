@@ -25,7 +25,5 @@ public class Aplicacion {
 
     }
 
-    public static void menu() {
-
-    }
+   
 }
