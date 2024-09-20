@@ -2,16 +2,19 @@
 // expresiones landa investiga
 
 import models.Empleado;
-import services.EmpleadoServices;
+import services.DireccionService;
+import services.EmpleadoService;
 
 import java.util.Scanner;
 
 public class Aplicacion {
 
 
+
     public static void main(String[] args) {
-        EmpleadoServices empleadoServices = new EmpleadoServices();
-        empleadoServices.menu();
+        EmpleadoService empleadoService = new EmpleadoService();
+        empleadoService.menu();
+
 
 //        System.out.println("ingrese el nombre del empleado: ");
 //        String nombre = sc.next();
@@ -24,6 +27,4 @@ public class Aplicacion {
 //        System.out.println();
 
     }
-
-   
 }
